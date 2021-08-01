@@ -1,0 +1,15 @@
+name: Groups
+author: D4RKN0X
+main: Main
+version: 1.0
+description: Plugin de gestion de groupes
+commands:
+  group:
+    description: Command to use the grouping system. Show the help.
+    usage: /group or /g
+  group help:
+    description: List every commands.
+    usage: /group help
+  group list:
+      description: Must be in a group to use. Show group members.
+      usage: /group list
