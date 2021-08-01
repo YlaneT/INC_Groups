@@ -10,6 +10,15 @@ commands:
   group help:
     description: List every commands.
     usage: /group help
+  group invite:
+      description: Must not be in a group or group member to use. Invites a player.
+      usage: /group invite <playerName>
   group list:
       description: Must be in a group to use. Show group members.
       usage: /group list
+  group quit:
+      description: Must be in a group to use. Quits the group. Disband the group if you are a group chief.
+      usage: /group quit
+  group kick:
+      description: Must be group chief to use. Kicks a player from the group.
+      usage: /group kick <playerName>
